@@ -603,7 +603,15 @@ li {
 .modal-form {
 }
 
-.title-imput {
+.modal-field {
+  position: relative;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -645,6 +653,10 @@ li {
   margin-top: 24px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.modal-icon {
+  position: absolute;
 }
 
 .comment-imput {
