@@ -790,9 +790,9 @@ li {
 }
 
 .input-checkbox:checked + .icon-privacy span {
-  background-color: var(--background-color, #404bbf);
+  background-color: #404bbf;
   border: none;
-  fill: var(--icon-color, #f4f4fd);
+  fill: #f4f4fd;
 }
 
 .checkbox-link {
