@@ -788,6 +788,12 @@ li {
   fill: transparent;
 }
 
+.icon-privacy .input-checkbox:checked {
+  background-color: var(--background-color, #404bbf);
+  border: none;
+  fill: var(--icon-color, #f4f4fd);
+}
+
 .checkbox-link {
   color: var(--link-color, #4d5ae5);
 }
