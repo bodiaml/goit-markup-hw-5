@@ -789,7 +789,7 @@ li {
   margin-right: 8px;
 }
 
-.input-checkbox:checked + .icon-privacy {
+.input-checkbox:checked + .icon-privacy span {
   background-color: var(--background-color, #404bbf);
   border: none;
   fill: var(--icon-color, #f4f4fd);
