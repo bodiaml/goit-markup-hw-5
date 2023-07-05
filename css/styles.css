@@ -692,8 +692,11 @@ li {
   position: relative;
 }
 
-.modal-imput:focus .modal-icon {
+.modal-imput:focus {
   border-color: #4d5ae5;
+}
+.modal-imput:focus + .modal-icon {
+  fill: #4d5ae5;
 }
 
 .modal-btn-send {
