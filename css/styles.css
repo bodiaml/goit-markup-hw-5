@@ -696,7 +696,7 @@ li {
 }
 
 .modal-btn-send {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -729,7 +729,7 @@ li {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-imput.modal-icon:focus {
+.modal-icon:focus {
   fill: #4d5ae5;
 }
 
