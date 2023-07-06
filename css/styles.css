@@ -789,10 +789,10 @@ li {
   margin-right: 8px;
 }
 
-.input-checkbox:checked + .icon-privacy span {
-  background-color: #404bbf;
+.input-checkbox:checked + .label-checkbox + .icon-checkbox {
+  background-color: var(--accent-color);
   border: none;
-  fill: #f4f4fd;
+  fill: var(--icon-color, #ffffff);
 }
 
 .checkbox-link {
