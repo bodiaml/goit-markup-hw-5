@@ -792,7 +792,7 @@ li {
 .input-checkbox:checked + .label-checkbox .icon-privacy {
   background-color: var(--accent-color);
   border: none;
-  fill: var(--icon-color, #ffffff);
+  fill: var(--icon-color, #f4f4fd);
 }
 
 /* .icon-checkbox {
